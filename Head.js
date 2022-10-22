@@ -66,7 +66,7 @@ document.addEventListener('keydown', (event) => {
   }, false);
 
 
-  let game = setInterval(tick, 500);
+  let game = setInterval(tick, 300);
   
   function tick() {
     Move();
